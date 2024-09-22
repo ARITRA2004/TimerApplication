@@ -42,7 +42,7 @@ input {
 
 button {
     height: 60px;
-    width: 150px;
+    width: 160px;
     border-radius: 10px;
     font-size: larger;
     display: flex;
@@ -51,6 +51,7 @@ button {
     display: flex !important;
     gap: 20%;
 }
+label{color: white;text-align: center;}
 button {
     background-image: linear-gradient(to right, #83a4d4 0%, #b6fbff 51%, #83a4d4 100%);
     /* margin: 10px;
@@ -72,11 +73,20 @@ button:hover {
     text-decoration: none;
     cursor: pointer;
 }
-
+h4{
+    margin-bottom: 10px;
+}
 @media (max-width:650px) {
     #timer{
         display: flex;   
         flex-direction: column;
         gap: 15px;
+    }
+    input{
+        height: 8.4rem;
+    }
+    button{
+        height: 50px;
+        width: 130px;
     }
 }
